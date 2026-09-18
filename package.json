@@ -1,0 +1,12 @@
+{
+  "name": "moving-cli",
+  "version": "0.1.0",
+  "description": "Search Moving Image Archive. JSON for agents.",
+  "type": "module",
+  "bin": { "moving-cli": "bin/moving-cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test", "check": "node --check bin/moving-cli.js && node --check src/client.js && node --check src/cli.js" },
+  "files": ["bin", "src", "README.md"],
+  "license": "UNLICENSED",
+  "private": true
+}
